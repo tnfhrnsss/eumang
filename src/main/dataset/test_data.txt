@@ -1,0 +1,2 @@
+text,label
+"My phone screen is broken and needs to be repaired at the store. Please send the repair fee to my account.",0

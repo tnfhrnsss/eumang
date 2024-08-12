@@ -1,0 +1,9 @@
+runtime: python
+env: flex
+runtime_config:
+  operating_system: "ubuntu22"
+  runtime_version: "3.12"
+network:
+  forwarded_ports:
+    - 8080/tcp
+entrypoint: gunicorn -b :$PORT -b :8080 app:app

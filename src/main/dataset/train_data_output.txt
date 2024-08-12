@@ -1,0 +1,14 @@
+text,label
+"Thanks for choosing: PayPal_Inc, (Stransaction ID: #PYPL296285) for $649.75 successfully confirmed. To cancel or dispute",0
+"CONGRATULATIONS! You won the lottery. Your friend Daniel wants to connecto with you. Both of you can redeem the prize when you APPLY HERE: offer.1nunlyaz25qx.co",0
+"I don't know if it's convenient for you to get a task done for me ASAP!",0
+"I need to get an eBay gift card for a friend of mine going through cancer in the hospital but I can't do this now.",0
+"Can you get it from any grocery store around you now? I'll pay back as soon as I can.",0
+"URGENT: The GOV has issued a payment of dollars to all residents as part of its promise to battle COVID 19.",0
+"TAP here https://covid-19-relieve.com to apply.",0
+"Netflix: Please update your membership with us to continue watching. bedy13.com/V3n4Ovhcow",0
+"Folow this link to claim your FREE PRIZE: bit.ly/81062fakq",0
+"Urgent Message to CIBC Online User, Log on to Verify your login Now",0
+"Thank you",1
+"Hi~",1
+

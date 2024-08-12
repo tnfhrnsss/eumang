@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eumang - catch phishing</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script>
+        function validateForm() {
+            var fileInput = document.querySelector('input[type="file"]');
+            if (fileInput.files.length === 0) {
+                alert('Please attach a file.');
+                return false; // Prevent form submission
+            }
+            return true; // Allow form submission
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Check if this is a phishing message.</h1>
+        <h3>"Only 'png', 'jpg', 'jpeg' are allowed."</h3>
+        <br>
+        <form action="/upload" method="post" enctype="multipart/form-data" onsubmit="return validateForm()">
+            <input type="file" name="file" accept="image/*">
+            <br>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</body>
+</html>
